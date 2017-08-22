@@ -29,16 +29,14 @@ end
 
 helpers do
 
-  def calculate_value(payload)
-    current_values = []
+  def calculate_value(payload,value=nil)
     payload.each_pair do |k, v|
       if v.is_a? Hash
-        current_values << calculate_value(v)
+        value = calculate_value(v,value)
+      else
+        value = Calculator.send(k, v << value)
       end
-      values_to_opporate = current_values << v
-      return Calculator.send(k, values_to_opporate.flatten)
-
     end
+    value
   end
-
 end
