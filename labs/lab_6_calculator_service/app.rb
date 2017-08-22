@@ -18,6 +18,20 @@ get '/subtract' do
 
 end
 
+get '/multiple' do
+
+  result = Calculator.send :multiple, params[:operand1], params[:operand2]
+  {result: result}.to_json
+
+end
+
+get '/divide' do
+
+  result = Calculator.send :divide, params[:operand1], params[:operand2]
+  {result: result}.to_json
+
+end
+
 post '/calculate' do
 
   payload = JSON.parse request.body.read
