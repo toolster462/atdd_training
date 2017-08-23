@@ -57,6 +57,5 @@ Define what is support, env.rb and hooks.rb ?
 
 What is feature file in Cucumber? What does feature file consist of?
 
-
  What is the difference betweent imperative and Declaritive style Gherkin?
 
