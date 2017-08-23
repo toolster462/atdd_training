@@ -1,5 +1,4 @@
 require 'cucumber'
-require 'watir-webdriver'
 require 'page-object'
 require 'rspec/expectations'
 
