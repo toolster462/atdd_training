@@ -1,4 +1,4 @@
-separate the following array into two arrays, one containing odd numbers, the others containing the even numbers
+# separate the following array into two arrays, one containing odd numbers, the others containing the even numbers
 # Do not use the even? and odd? methods
 
 # expected output:
