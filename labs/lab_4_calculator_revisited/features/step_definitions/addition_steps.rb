@@ -5,10 +5,10 @@ When /^I add two numbers$/ do
 end
 
 Then /^I get the sum$/ do
-  expect(@sum).to eq 29
+  expect(@bal).to eq 29
 end
 
-When /^I add zero to a number$/ do
+When /^I add zero from a number$/ do
   @sum = Calculator.new.add 6, 0
 end
 

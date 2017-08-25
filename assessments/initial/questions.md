@@ -12,7 +12,7 @@ If it involves complex logic, many users and has many dependencies, and warrants
 additional personnel and time.
 
 What type of things are not good to automate?
-Simple functions, sanity checks, adhoc testing
+Simple functions, sanity checks, ad hoc testing
 
 What criteria do you consider for automating a test?
 How often is it used? How complex is it and where is it on 
